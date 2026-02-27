@@ -29,9 +29,18 @@ An adjunction is not a symmetry. It's a directed relationship — one functor do
 
 ## Adjoint Ten
 
-```
-#0C0E16 · #181B24 · #666666 · #D4D4D4 · #00FFCE · #AA78C8 · #FF3366 · #FFBE0B · #4CB8E8 · #33DD66
-```
+<p>
+  <img src="https://img.shields.io/badge/-Void-0C0E16?style=flat-square" alt="#0C0E16"/>
+  <img src="https://img.shields.io/badge/-Elevation-181B24?style=flat-square" alt="#181B24"/>
+  <img src="https://img.shields.io/badge/-Counit-666666?style=flat-square" alt="#666666"/>
+  <img src="https://img.shields.io/badge/-Morphism-D4D4D4?style=flat-square" alt="#D4D4D4"/>
+  <img src="https://img.shields.io/badge/-Left_Adjoint-00FFCE?style=flat-square" alt="#00FFCE"/>
+  <img src="https://img.shields.io/badge/-Right_Adjoint-AA78C8?style=flat-square" alt="#AA78C8"/>
+  <img src="https://img.shields.io/badge/-Unit-FF3366?style=flat-square" alt="#FF3366"/>
+  <img src="https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square" alt="#FFBE0B"/>
+  <img src="https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square" alt="#4CB8E8"/>
+  <img src="https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square" alt="#33DD66"/>
+</p>
 
 ## Accessibility
 
@@ -218,8 +227,4 @@ Nearest ANSI 256 codes for CI logs, REPL output, and test runners. Half the plac
 | Hom | `#4CB8E8` | 81 | `\e[38;5;81m` |
 | Isomorphism | `#33DD66` | 78 | `\e[38;5;78m` |
 
-```bash
-# Reset
-tput sgr0
-# Or: \e[0m
-```
+Reset with `\e[0m` or `tput sgr0`.
