@@ -6,23 +6,28 @@
 
 <p align="center"><em>When left meets right, code gets dual-wielded</em></p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/F_⊣_G-adjoint paired-00FFCE?style=flat-square" alt="Adjoint Paired"/>
+  <img src="https://img.shields.io/badge/julia-1.10+-9558B2?style=flat-square&logo=julia&logoColor=white" alt="Julia 1.10+"/>
+  <img src="https://img.shields.io/badge/diagrams-commuting-00FFCE?style=flat-square" alt="Diagrams Commuting"/>
+</p>
+
 ---
 
-Structure is not ornament. The same algebra that governs adjoint functors governs good software — composable, reversible, minimal.
+We write Julia libraries that take adjunctions seriously as an engineering discipline — not a curiosity, not a flex, but the computational structure behind differentiation, learning, and optimization.
 
-We build tools at the boundary of category theory and machine intelligence, in Julia, with the conviction that the right abstraction eliminates the right complexity.
+Where [AlgebraicJulia](https://github.com/AlgebraicJulia) gives you categories as data structures, we're building categories as computational strategies — particularly the adjoint machinery (F ⊣ G) that drives autodiff, encoder-decoder architectures, and compositional inference.
 
-## Focus
+The algebra should compile. The abstractions should vanish at runtime. The diagrams should commute.
 
-| Domain | Objects |
-|:--|:--|
-| **Category Theory** | Adjunctions, comonads, Yoneda embeddings, universal constructions |
-| **AI & Learning** | Categorical foundations for neural architectures, compositional reasoning |
-| **Julia** | Type-driven libraries where the algebra compiles |
+## Open Questions
 
-## What's Next
+- Can the Para construction give Julia a categorical interface to gradient-based learning?
+- What's the right comonadic semantics for streaming data and online inference?
+- When does the free-forgetful pattern in type systems actually buy you performance?
+- Is there a useful profunctor optics library waiting to be written in Julia?
 
-First public packages are in the works — categorical abstractions for Julia that take adjoint duality seriously. Watch this space.
+If any of these keep you up at night — [open a discussion](https://github.com/orgs/AdjointAntics/discussions).
 
 ## Neighbors
 

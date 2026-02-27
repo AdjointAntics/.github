@@ -4677,4 +4677,8 @@
     <path d="M 386.9600 335.3851  L 194.4800 2.0000  " fill="none" stroke="#000" stroke-width="3.75"/>
     <path d="M 194.4800 2.0000  L 2.0000 335.3851  " fill="none" stroke="#000" stroke-width="3.75"/>
   </g>
+  <!-- If you're reading the source of our logo, you're our kind of person.
+       This is the bottom-right barycentric subdivision of an equilateral triangle,
+       four levels deep. Open an issue titled "I found the universal property"
+       and tell us your favorite adjunction. -->
 </svg>
