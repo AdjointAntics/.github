@@ -34,8 +34,10 @@ If any of these keep you up at night — [open a discussion](https://github.com/
 - [ACSets.jl](https://github.com/AlgebraicJulia/ACSets.jl) — Acyclic colimit sets for structured data
 - [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
 - [Catlab.jl](https://github.com/AlgebraicJulia/Catlab.jl) — Categorical modeling framework
+- [idris-ct](https://github.com/statebox/idris-ct) — Verified category theory in Idris
 - [nLab](https://ncatlab.org) — The community wiki for higher category theory
 - [Oscar.jl](https://github.com/oscar-system/Oscar.jl) — Computer algebra in Julia
+- [Typedefs](https://github.com/typedefs/typedefs) — Algebraic type definitions as a language
 
 ---
 
