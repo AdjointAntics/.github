@@ -1,85 +1,114 @@
 # Adjoint Ten — AdjointAntics Color Palette
 
-An adjunction is not a symmetry. It's a directed relationship — one functor dominates, the other recedes. The palette reflects this. Cyan speaks. Everything else listens.
+An adjunction is not a symmetry. It's a directed relationship — one functor constructs, the other forgets. The palette encodes this asymmetry. Cyan dominates. Everything else recedes.
 
 ## Core
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Background | **Void** | Deep Indigo | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) `#0C0E16` | — | The category itself. Contains all objects and morphisms. Shows none. Almost everything is this. |
-| Text | **Morphism** | Silver Arrow | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not pure white — pure white is a statement, and the text isn't making one. |
+| Background | **Void** | Deep Indigo | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) `#0C0E16` | — | The category. Contains everything, shows nothing. Almost all surface area is this. |
+| Text | **Morphism** | Silver Arrow | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not white — pure white is a statement. Text isn't making one. |
 | Primary | **Left Adjoint** | Alien Cyan | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | 14.9:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
 
 ## Accent
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Secondary | **Right Adjoint** | Forgetful Lilac | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple. The lineage is visible in the color space. |
-| Alert | **Unit** | Hot Rose | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes, deprecations. If you see this color, something is asking you to act. |
-| Warning | **Comonad** | Electric Amber | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | 11.6:1 AAA | GF. The composition that observes before it transforms. Warnings, highlights, selections. The thing that asks you to notice before you decide. |
-| Info | **Hom** | Frozen Neon | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The collection of all morphisms between two objects. Structural, quiet, always present. Info states, focus rings, hover backgrounds — the things that say "you're here" without saying "look at me." |
-| Success | **Isomorphism** | Cathode Green | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states, confirmed operations. Everything checks out. |
+| Secondary | **Right Adjoint** | Forgetful Lilac | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple — the lineage is visible in the color space. |
+| Error | **Unit** | Hot Rose | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes. If you see this, act. |
+| Warning | **Comonad** | Electric Amber | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | 11.6:1 AAA | GF. Observes before it transforms. Warnings, highlights, deprecations — the things that ask you to notice before you decide. |
+| Info | **Hom** | Frozen Neon | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The set of all morphisms between two objects. Structural, always present. Info states, focus rings — "you're here" without "look at me." |
+| Success | **Isomorphism** | Cathode Green | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states. Everything checks out. |
 
 ## Structure
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Surface | **Elevation** | Charcoal | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) `#181B24` | — | Code blocks, cards, anything that lifts off the void. The step is subtle. That's the point — structure should be felt, not seen. |
-| Border | **Counit** | Ash | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 AA-large | ε: FG → 1. The return. Borders, dividers, de-emphasized text. The things that organize without competing. |
+| Surface | **Elevation** | Charcoal | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) `#181B24` | — | Code blocks, cards, anything lifted off the void. The step is subtle — structure should be felt, not seen. |
+| Border | **Counit** | Ash | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 AA-lg | ε: FG → 1. The return. Borders, dividers, de-emphasized text. Organizes without competing. |
 
 ## Adjoint Ten
 
 <p>
-  <img src="https://img.shields.io/badge/-Void-0C0E16?style=flat-square" alt="#0C0E16"/>
-  <img src="https://img.shields.io/badge/-Elevation-181B24?style=flat-square" alt="#181B24"/>
-  <img src="https://img.shields.io/badge/-Counit-666666?style=flat-square" alt="#666666"/>
-  <img src="https://img.shields.io/badge/-Morphism-D4D4D4?style=flat-square" alt="#D4D4D4"/>
-  <img src="https://img.shields.io/badge/-Left_Adjoint-00FFCE?style=flat-square" alt="#00FFCE"/>
-  <img src="https://img.shields.io/badge/-Right_Adjoint-AA78C8?style=flat-square" alt="#AA78C8"/>
-  <img src="https://img.shields.io/badge/-Unit-FF3366?style=flat-square" alt="#FF3366"/>
-  <img src="https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square" alt="#FFBE0B"/>
-  <img src="https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square" alt="#4CB8E8"/>
-  <img src="https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square" alt="#33DD66"/>
+  <img src="https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16" alt="Void #0C0E16"/>
+  <img src="https://img.shields.io/badge/Elevation-%20-181B24?style=flat-square&labelColor=0C0E16" alt="Elevation #181B24"/>
+  <img src="https://img.shields.io/badge/Counit-%20-666666?style=flat-square&labelColor=0C0E16" alt="Counit #666666"/>
+  <img src="https://img.shields.io/badge/Morphism-%20-D4D4D4?style=flat-square&labelColor=0C0E16" alt="Morphism #D4D4D4"/>
+  <img src="https://img.shields.io/badge/Left_Adjoint-%20-00FFCE?style=flat-square&labelColor=0C0E16" alt="Left Adjoint #00FFCE"/>
+  <img src="https://img.shields.io/badge/Right_Adjoint-%20-AA78C8?style=flat-square&labelColor=0C0E16" alt="Right Adjoint #AA78C8"/>
+  <img src="https://img.shields.io/badge/Unit-%20-FF3366?style=flat-square&labelColor=0C0E16" alt="Unit #FF3366"/>
+  <img src="https://img.shields.io/badge/Comonad-%20-FFBE0B?style=flat-square&labelColor=0C0E16" alt="Comonad #FFBE0B"/>
+  <img src="https://img.shields.io/badge/Hom-%20-4CB8E8?style=flat-square&labelColor=0C0E16" alt="Hom #4CB8E8"/>
+  <img src="https://img.shields.io/badge/Isomorphism-%20-33DD66?style=flat-square&labelColor=0C0E16" alt="Isomorphism #33DD66"/>
 </p>
 
 ## Accessibility
 
-All text-bearing colors meet WCAG 2.1 AA or higher on both Void (`#0C0E16`) and Elevation (`#181B24`) backgrounds:
+WCAG 2.1 contrast ratios on both surfaces. Seven of eight colors exceed AA (4.5:1) on both Void and Elevation. Counit meets AA-large (3.0:1) — reserved for borders and muted large text. The *Minimum required* column is our internal standard: the threshold below which we reject a color change.
 
-| Color | On Void | On Elevation | Minimum required |
-|:--|:--|:--|:--|
-| ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) Morphism | 13.0:1 AAA | 11.6:1 AAA | AAA (body text) |
-| ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) Left Adjoint | 14.9:1 AAA | 13.3:1 AAA | AA (headings, links) |
-| ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) Comonad | 11.6:1 AAA | 10.3:1 AAA | AA (warnings, highlights) |
-| ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) Right Adjoint | 5.7:1 AA | 5.1:1 AA | AA (links, labels) |
-| ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) Unit | 5.4:1 AA | 4.8:1 AA | AA (alerts) |
-| ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) Hom | 8.6:1 AAA | 7.6:1 AAA | AA (info, focus states) |
-| ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) Isomorphism | 10.7:1 AAA | 9.6:1 AAA | AA (success states) |
-| ![](https://img.shields.io/badge/-%20-666666?style=flat-square) Counit | 3.4:1 AA-large | 3.0:1 AA-large | AA-large (muted text, borders) |
+| Color | | Void | Elevation | Minimum required |
+|:--|:--|:--|:--|:--|
+| Left Adjoint | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | 14.9:1 AAA | 13.3:1 AAA | AA — headings, accent |
+| Morphism | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | 13.0:1 AAA | 11.6:1 AAA | AAA — body text |
+| Comonad | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | 11.6:1 AAA | 10.3:1 AAA | AA — warnings |
+| Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | 10.7:1 AAA | 9.6:1 AAA | AA — success states |
+| Hom | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | 8.6:1 AAA | 7.6:1 AAA | AA — info, focus |
+| Right Adjoint | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | 5.7:1 AA | 5.1:1 AA | AA — links, labels |
+| Unit | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | 5.4:1 AA | 4.8:1 AA | AA — alerts |
+| Counit | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | 3.4:1 AA-lg | 3.0:1 AA-lg | AA-lg — muted text, borders |
 
-Never convey meaning through color alone. Pair color with shape, icon, or text label.
+**Never convey meaning through color alone.** Every color-coded element gets a paired signal: icon, underline, text label, or shape.
+
+### Pairwise contrast
+
+No two accent colors achieve 3:1 contrast against each other. The highest pair (Left Adjoint ↔ Unit, 2.7:1) still fails AA-large. Accent colors are legible on Void and Elevation, not on each other. This is structural — it enforces Rule 11 and prevents visual noise.
+
+<details>
+<summary>Full pairwise matrix (15 pairs)</summary>
+
+&nbsp;
+
+| Pair | Ratio |
+|:--|:--|
+| Left Adjoint ↔ Unit | 2.7:1 |
+| Left Adjoint ↔ Right Adjoint | 2.6:1 |
+| Unit ↔ Comonad | 2.1:1 |
+| Unit ↔ Isomorphism | 2.0:1 |
+| Right Adjoint ↔ Comonad | 2.0:1 |
+| Right Adjoint ↔ Isomorphism | 1.9:1 |
+| Left Adjoint ↔ Hom | 1.7:1 |
+| Unit ↔ Hom | 1.6:1 |
+| Right Adjoint ↔ Hom | 1.5:1 |
+| Left Adjoint ↔ Isomorphism | 1.4:1 |
+| Comonad ↔ Hom | 1.4:1 |
+| Left Adjoint ↔ Comonad | 1.3:1 |
+| Hom ↔ Isomorphism | 1.3:1 |
+| Right Adjoint ↔ Unit | 1.1:1 |
+| Comonad ↔ Isomorphism | 1.1:1 |
+
+</details>
 
 ### Color vision deficiency
 
-Simulated against protanopia, deuteranopia, and tritanopia. All WCAG levels hold across every simulation. Rule 7 is the load-bearing structure — icons are the signal, color is the channel.
+Simulated against protanopia, deuteranopia, and tritanopia using Viénot/Brettel matrices. All colors maintain WCAG compliance under every simulation. The worst drop is Unit under protanopia (5.4:1 → 3.7:1, AA → AA-large) — the ✕ icon carries the signal.
 
 <details>
 <summary><strong>Protanopia</strong> — no red cones (~1% of males)</summary>
 
 &nbsp;
 
-| Name | Original | | Simulated | | Level |
-|:--|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
-| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#F7EDCC` | ![](https://img.shields.io/badge/-%20-F7EDCC?style=flat-square) | AAA |
-| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#6989CB` | ![](https://img.shields.io/badge/-%20-6989CB?style=flat-square) | AA |
-| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#6F6D67` | ![](https://img.shields.io/badge/-%20-6F6D67?style=flat-square) | AA-large |
-| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#D9BF00` | ![](https://img.shields.io/badge/-%20-D9BF00?style=flat-square) | AAA |
-| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#A0B6EA` | ![](https://img.shields.io/badge/-%20-A0B6EA?style=flat-square) | AAA |
-| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#DFC95B` | ![](https://img.shields.io/badge/-%20-DFC95B?style=flat-square) | AAA |
-| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
+| Name | Original | Simulated | Ratio | Level |
+|:--|:--|:--|:--|:--|
+| Left Adjoint | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | ![](https://img.shields.io/badge/-%20-F7EDCC?style=flat-square) `#F7EDCC` | 16.5:1 | AAA |
+| Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | ![](https://img.shields.io/badge/-%20-DFC95B?style=flat-square) `#DFC95B` | 11.6:1 | AAA |
+| Comonad | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | ![](https://img.shields.io/badge/-%20-D9BF00?style=flat-square) `#D9BF00` | 10.5:1 | AAA |
+| Hom | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | ![](https://img.shields.io/badge/-%20-A0B6EA?style=flat-square) `#A0B6EA` | 9.5:1 | AAA |
+| Right Adjoint | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | ![](https://img.shields.io/badge/-%20-6989CB?style=flat-square) `#6989CB` | 5.5:1 | AA |
+| Unit | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | ![](https://img.shields.io/badge/-%20-6F6D67?style=flat-square) `#6F6D67` | 3.7:1 | AA-lg |
+| Counit | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 | AA-lg |
+| Morphism | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 | AAA |
 
-No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon carries it.
+No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon carries the signal.
 
 </details>
 
@@ -88,88 +117,89 @@ No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon
 
 &nbsp;
 
-| Name | Original | | Simulated | | Level |
-|:--|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
-| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#DDDAD1` | ![](https://img.shields.io/badge/-%20-DDDAD1?style=flat-square) | AAA |
-| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#758DC6` | ![](https://img.shields.io/badge/-%20-758DC6?style=flat-square) | AA |
-| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#A39761` | ![](https://img.shields.io/badge/-%20-A39761?style=flat-square) | AA |
-| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#E8CF1F` | ![](https://img.shields.io/badge/-%20-E8CF1F?style=flat-square) | AAA |
-| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#8AA6E7` | ![](https://img.shields.io/badge/-%20-8AA6E7?style=flat-square) | AAA |
-| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#CCBC6F` | ![](https://img.shields.io/badge/-%20-CCBC6F?style=flat-square) | AAA |
-| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
+| Name | Original | Simulated | Ratio | Level |
+|:--|:--|:--|:--|:--|
+| Left Adjoint | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | ![](https://img.shields.io/badge/-%20-DDDAD1?style=flat-square) `#DDDAD1` | 13.8:1 | AAA |
+| Comonad | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | ![](https://img.shields.io/badge/-%20-E8CF1F?style=flat-square) `#E8CF1F` | 12.3:1 | AAA |
+| Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | ![](https://img.shields.io/badge/-%20-CCBC6F?style=flat-square) `#CCBC6F` | 10.1:1 | AAA |
+| Hom | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | ![](https://img.shields.io/badge/-%20-8AA6E7?style=flat-square) `#8AA6E7` | 8.0:1 | AAA |
+| Unit | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | ![](https://img.shields.io/badge/-%20-A39761?style=flat-square) `#A39761` | 6.6:1 | AA |
+| Right Adjoint | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | ![](https://img.shields.io/badge/-%20-758DC6?style=flat-square) `#758DC6` | 5.9:1 | AA |
+| Counit | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 | AA-lg |
+| Morphism | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 | AAA |
 
 **Near-pairs:**
 
-- **Right Adjoint ↔ Hom** — both shift blue-ish (Δ46). Different spatial roles (links vs info containers), rarely adjacent. Rule 10 prevents nesting.
-- **Unit ↔ Isomorphism** — both shift ochre (Δ57). The classic red-green collapse. The ✕ and ✓ icons are mandatory here — they are the only discriminant.
+- **Right Adjoint ↔ Hom** — both shift blue-ish (Δ46). Different spatial roles (links vs containers), rarely adjacent. Rule 10 prevents nesting.
+- **Unit ↔ Isomorphism** — both shift ochre (Δ57). The classic red-green collapse. Icons ✕ and ✓ are the only discriminant.
 
 </details>
 
 <details>
-<summary><strong>Tritanopia</strong> — no blue cones (~0.003% of population)</summary>
+<summary><strong>Tritanopia</strong> — no blue cones (~0.003%)</summary>
 
 &nbsp;
 
-| Name | Original | | Simulated | | Level |
-|:--|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
-| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#00FFF1` | ![](https://img.shields.io/badge/-%20-00FFF1?style=flat-square) | AAA |
-| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#A78397` | ![](https://img.shields.io/badge/-%20-A78397?style=flat-square) | AA |
-| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#FF004A` | ![](https://img.shields.io/badge/-%20-FF004A?style=flat-square) | AA |
-| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#FFAAA2` | ![](https://img.shields.io/badge/-%20-FFAAA2?style=flat-square) | AAA |
-| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#00C5C8` | ![](https://img.shields.io/badge/-%20-00C5C8?style=flat-square) | AAA |
-| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#00D8C2` | ![](https://img.shields.io/badge/-%20-00D8C2?style=flat-square) | AAA |
-| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
+| Name | Original | Simulated | Ratio | Level |
+|:--|:--|:--|:--|:--|
+| Left Adjoint | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFF1?style=flat-square) `#00FFF1` | 15.2:1 | AAA |
+| Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | ![](https://img.shields.io/badge/-%20-00D8C2?style=flat-square) `#00D8C2` | 10.6:1 | AAA |
+| Comonad | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFAAA2?style=flat-square) `#FFAAA2` | 10.6:1 | AAA |
+| Hom | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | ![](https://img.shields.io/badge/-%20-00C5C8?style=flat-square) `#00C5C8` | 9.0:1 | AAA |
+| Right Adjoint | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | ![](https://img.shields.io/badge/-%20-A78397?style=flat-square) `#A78397` | 5.8:1 | AA |
+| Unit | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | ![](https://img.shields.io/badge/-%20-FF004A?style=flat-square) `#FF004A` | 4.9:1 | AA |
+| Counit | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 | AA-lg |
+| Morphism | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 | AAA |
 
 **Near-pair:**
 
-- **Hom ↔ Isomorphism** — both collapse to near-identical cyan (Δ20). Affects ~0.003% of the population. Icons are the interface for this group. Acceptable tradeoff — desaturating the entire palette to fix this would be a category error.
+- **Hom ↔ Isomorphism** — both collapse to near-identical cyan (Δ20). Affects ~0.003% of the population. Icons are the interface for this group.
 
 </details>
 
 ### Why it works
 
-Rule 7 ("never color alone") was written before the CVD simulation was run. The simulation validated it. Color is a channel, not the signal. The signal is shape: ✓ for success, ℹ for info, ⚠ for warning, ✕ for error. For the ~2% of users with color vision deficiency, the icons do the actual work and the color is reinforcement. This is the correct architecture.
+Rule 7 ("never color alone") was written before the CVD simulation was run. The simulation validated it. Color is a channel, not the signal. The signal is shape: ✓ ℹ ⚠ ✕. For the ~2% of users with color vision deficiency, the icons do the work. Color reinforces. This is the correct architecture.
 
 ## Usage rules
 
 1. **Cyan is earned.** Headers, links, the logo, key data. Never decoration.
 2. **Amber warns.** Deprecation notices, caution states, things worth a second look. Not as urgent as rose.
-3. **Rose is rare.** If more than 5% of a page is `#FF3366`, something is wrong with the page, not the palette.
+3. **Rose is rare.** If more than 5% of a surface is `#FF3366`, something is wrong with the surface, not the palette.
 4. **Purple connects.** Links to Julia ecosystem, references to dependencies, inherited concepts.
 5. **When in doubt, use gray.** Most UI is structure, and structure is gray.
 6. **No gradients.** Flat color. The algebra is discrete.
 7. **Never color alone.** Errors get an icon. Links get an underline. Status gets a label. Color reinforces — it doesn't carry.
-8. **Blue informs.** Info banners, focus states, hover highlights, selected rows. The things that orient without demanding.
-9. **Green confirms.** Passing tests, successful operations, verified states. Always paired with a ✓ icon or "passed" label.
+8. **Blue informs.** Info banners, focus states, hover highlights, selected rows. Orients without demanding.
+9. **Green confirms.** Passing tests, successful operations, verified states. Always paired with ✓ or "passed."
 10. **Hom and Right Adjoint don't nest.** Never place lilac links inside blue info containers. Under deuteranopia, both collapse to the same blue.
 11. **Three chromatic max per surface.** If a card needs four accent colors, one of them is wrong.
 12. **Cyan is not success. Blue is not links.** Isomorphism handles success. Right Adjoint handles links. Web conventions do not override the algebra.
 
 ## Alerts
 
-Four levels. The icons are not optional — they are the signal. The color is the channel.
+Four levels. Icons are not optional — they are the signal. Color is the channel.
 
 | Level | Color | Icon | When |
 |:--|:--|:--|:--|
-| Success | ![](https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square) `#33DD66` | ✓ | Passing tests, verified, confirmed |
-| Info | ![](https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square) `#4CB8E8` | ℹ | Neutral information, status updates |
-| Warning | ![](https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square) `#FFBE0B` | ⚠ | Deprecations, caution, second look |
-| Error | ![](https://img.shields.io/badge/-Unit-FF3366?style=flat-square) `#FF3366` | ✕ | Failures, breaking changes, act now |
+| Success | ![](https://img.shields.io/badge/Isomorphism-%20-33DD66?style=flat-square&labelColor=0C0E16) `#33DD66` | ✓ | Passing tests, verified, confirmed |
+| Info | ![](https://img.shields.io/badge/Hom-%20-4CB8E8?style=flat-square&labelColor=0C0E16) `#4CB8E8` | ℹ | Neutral information, status updates |
+| Warning | ![](https://img.shields.io/badge/Comonad-%20-FFBE0B?style=flat-square&labelColor=0C0E16) `#FFBE0B` | ⚠ | Deprecations, caution, second look |
+| Error | ![](https://img.shields.io/badge/Unit-%20-FF3366?style=flat-square&labelColor=0C0E16) `#FF3366` | ✕ | Failures, breaking changes, act now |
 
 ## Inversions
 
-For solid-fill elements (tags, badges, buttons), use Void text on colored backgrounds. Always Void. Never Elevation — the contrast is higher and the tint is invisible at small sizes.
+For solid-fill elements (tags, badges, buttons), use Void text on colored backgrounds. Always Void — never Elevation. The contrast is higher and the tint is invisible at small sizes.
 
-| Background | Text | Contrast |
-|:--|:--|:--|
-| ![](https://img.shields.io/badge/-Left_Adjoint-00FFCE?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 14.9:1 |
-| ![](https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 10.7:1 |
-| ![](https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 11.6:1 |
-| ![](https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 8.6:1 |
-| ![](https://img.shields.io/badge/-Unit-FF3366?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 5.4:1 |
-| ![](https://img.shields.io/badge/-Right_Adjoint-AA78C8?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 5.7:1 |
+| Background | Text | Ratio | Level |
+|:--|:--|:--|:--|
+| ![](https://img.shields.io/badge/Left_Adjoint-%20-00FFCE?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 14.9:1 | AAA |
+| ![](https://img.shields.io/badge/Morphism-%20-D4D4D4?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 13.0:1 | AAA |
+| ![](https://img.shields.io/badge/Comonad-%20-FFBE0B?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 11.6:1 | AAA |
+| ![](https://img.shields.io/badge/Isomorphism-%20-33DD66?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 10.7:1 | AAA |
+| ![](https://img.shields.io/badge/Hom-%20-4CB8E8?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 8.6:1 | AAA |
+| ![](https://img.shields.io/badge/Right_Adjoint-%20-AA78C8?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 5.7:1 | AA |
+| ![](https://img.shields.io/badge/Unit-%20-FF3366?style=flat-square&labelColor=0C0E16) | ![](https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16) | 5.4:1 | AA |
 
 ## CSS variables
 
@@ -212,7 +242,7 @@ const PALETTE = (
 
 ## Terminal colors
 
-Nearest ANSI 256 codes for CI logs, REPL output, and test runners. Half the places these colors appear are terminals, not browsers.
+Nearest ANSI 256 codes for CI logs, REPL output, and test runners.
 
 | Name | | Hex | ANSI 256 | Escape |
 |:--|:--|:--|:--|:--|
@@ -228,3 +258,10 @@ Nearest ANSI 256 codes for CI logs, REPL output, and test runners. Half the plac
 | Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#33DD66` | 78 | `\e[38;5;78m` |
 
 Reset with `\e[0m` or `tput sgr0`.
+
+## Files
+
+| File | Purpose |
+|:--|:--|
+| [`tokens.json`](tokens.json) | Single source of truth. Every other format is derivable from this. |
+| [`adjoint.css`](adjoint.css) | Standalone CSS — custom properties, alerts, tags. No build step. |
