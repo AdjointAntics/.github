@@ -6,26 +6,26 @@ An adjunction is not a symmetry. It's a directed relationship — one functor do
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Background | **Void** | Deep Indigo | `#0C0E16` | — | The category itself. Contains all objects and morphisms. Shows none. Almost everything is this. |
-| Text | **Morphism** | Silver Arrow | `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not pure white — pure white is a statement, and the text isn't making one. |
-| Primary | **Left Adjoint** | Alien Cyan | `#00FFCE` | 14.9:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
+| Background | **Void** | Deep Indigo | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) `#0C0E16` | — | The category itself. Contains all objects and morphisms. Shows none. Almost everything is this. |
+| Text | **Morphism** | Silver Arrow | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not pure white — pure white is a statement, and the text isn't making one. |
+| Primary | **Left Adjoint** | Alien Cyan | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | 14.9:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
 
 ## Accent
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Secondary | **Right Adjoint** | Forgetful Lilac | `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple. The lineage is visible in the color space. |
-| Alert | **Unit** | Hot Rose | `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes, deprecations. If you see this color, something is asking you to act. |
-| Warning | **Comonad** | Electric Amber | `#FFBE0B` | 11.6:1 AAA | GF. The composition that observes before it transforms. Warnings, highlights, selections. The thing that asks you to notice before you decide. |
-| Info | **Hom** | Frozen Neon | `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The collection of all morphisms between two objects. Structural, quiet, always present. Info states, focus rings, hover backgrounds — the things that say "you're here" without saying "look at me." |
-| Success | **Isomorphism** | Cathode Green | `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states, confirmed operations. Everything checks out. |
+| Secondary | **Right Adjoint** | Forgetful Lilac | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple. The lineage is visible in the color space. |
+| Alert | **Unit** | Hot Rose | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes, deprecations. If you see this color, something is asking you to act. |
+| Warning | **Comonad** | Electric Amber | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | 11.6:1 AAA | GF. The composition that observes before it transforms. Warnings, highlights, selections. The thing that asks you to notice before you decide. |
+| Info | **Hom** | Frozen Neon | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The collection of all morphisms between two objects. Structural, quiet, always present. Info states, focus rings, hover backgrounds — the things that say "you're here" without saying "look at me." |
+| Success | **Isomorphism** | Cathode Green | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states, confirmed operations. Everything checks out. |
 
 ## Structure
 
 | Role | Name | Color | Hex | Contrast on Void | Rationale |
 |:--|:--|:--|:--|:--|:--|
-| Surface | **Elevation** | Charcoal | `#181B24` | — | Code blocks, cards, anything that lifts off the void. The step is subtle. That's the point — structure should be felt, not seen. |
-| Border | **Counit** | Ash | `#666666` | 3.4:1 AA-large | ε: FG → 1. The return. Borders, dividers, de-emphasized text. The things that organize without competing. |
+| Surface | **Elevation** | Charcoal | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) `#181B24` | — | Code blocks, cards, anything that lifts off the void. The step is subtle. That's the point — structure should be felt, not seen. |
+| Border | **Counit** | Ash | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 AA-large | ε: FG → 1. The return. Borders, dividers, de-emphasized text. The things that organize without competing. |
 
 ## Adjoint Ten
 
@@ -48,14 +48,14 @@ All text-bearing colors meet WCAG 2.1 AA or higher on both Void (`#0C0E16`) and 
 
 | Color | On Void | On Elevation | Minimum required |
 |:--|:--|:--|:--|
-| Morphism `#D4D4D4` | 13.0:1 AAA | 11.6:1 AAA | AAA (body text) |
-| Left Adjoint `#00FFCE` | 14.9:1 AAA | 13.3:1 AAA | AA (headings, links) |
-| Comonad `#FFBE0B` | 11.6:1 AAA | 10.3:1 AAA | AA (warnings, highlights) |
-| Right Adjoint `#AA78C8` | 5.7:1 AA | 5.1:1 AA | AA (links, labels) |
-| Unit `#FF3366` | 5.4:1 AA | 4.8:1 AA | AA (alerts) |
-| Hom `#4CB8E8` | 8.6:1 AAA | 7.6:1 AAA | AA (info, focus states) |
-| Isomorphism `#33DD66` | 10.7:1 AAA | 9.6:1 AAA | AA (success states) |
-| Counit `#666666` | 3.4:1 AA-large | 3.0:1 AA-large | AA-large (muted text, borders) |
+| ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) Morphism | 13.0:1 AAA | 11.6:1 AAA | AAA (body text) |
+| ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) Left Adjoint | 14.9:1 AAA | 13.3:1 AAA | AA (headings, links) |
+| ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) Comonad | 11.6:1 AAA | 10.3:1 AAA | AA (warnings, highlights) |
+| ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) Right Adjoint | 5.7:1 AA | 5.1:1 AA | AA (links, labels) |
+| ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) Unit | 5.4:1 AA | 4.8:1 AA | AA (alerts) |
+| ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) Hom | 8.6:1 AAA | 7.6:1 AAA | AA (info, focus states) |
+| ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) Isomorphism | 10.7:1 AAA | 9.6:1 AAA | AA (success states) |
+| ![](https://img.shields.io/badge/-%20-666666?style=flat-square) Counit | 3.4:1 AA-large | 3.0:1 AA-large | AA-large (muted text, borders) |
 
 Never convey meaning through color alone. Pair color with shape, icon, or text label.
 
@@ -68,16 +68,16 @@ Simulated against protanopia, deuteranopia, and tritanopia. All WCAG levels hold
 
 &nbsp;
 
-| Name | Original | Simulated | On Void | Level |
-|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | `#D4D4D4` | 12.9:1 | AAA |
-| Left Adjoint | `#00FFCE` | `#F7EDCC` | 16.4:1 | AAA |
-| Right Adjoint | `#AA78C8` | `#6989CB` | 5.5:1 | AA |
-| Unit | `#FF3366` | `#6F6D67` | 3.7:1 | AA-large |
-| Comonad | `#FFBE0B` | `#D9BF00` | 10.4:1 | AAA |
-| Hom | `#4CB8E8` | `#A0B6EA` | 9.5:1 | AAA |
-| Isomorphism | `#33DD66` | `#DFC95B` | 11.5:1 | AAA |
-| Counit | `#666666` | `#666666` | 3.3:1 | AA-large |
+| Name | Original | | Simulated | | Level |
+|:--|:--|:--|:--|:--|:--|
+| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
+| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#F7EDCC` | ![](https://img.shields.io/badge/-%20-F7EDCC?style=flat-square) | AAA |
+| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#6989CB` | ![](https://img.shields.io/badge/-%20-6989CB?style=flat-square) | AA |
+| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#6F6D67` | ![](https://img.shields.io/badge/-%20-6F6D67?style=flat-square) | AA-large |
+| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#D9BF00` | ![](https://img.shields.io/badge/-%20-D9BF00?style=flat-square) | AAA |
+| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#A0B6EA` | ![](https://img.shields.io/badge/-%20-A0B6EA?style=flat-square) | AAA |
+| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#DFC95B` | ![](https://img.shields.io/badge/-%20-DFC95B?style=flat-square) | AAA |
+| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
 
 No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon carries it.
 
@@ -88,16 +88,16 @@ No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon
 
 &nbsp;
 
-| Name | Original | Simulated | On Void | Level |
-|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | `#D4D4D4` | 13.0:1 | AAA |
-| Left Adjoint | `#00FFCE` | `#DDDAD1` | 13.8:1 | AAA |
-| Right Adjoint | `#AA78C8` | `#758DC6` | 5.9:1 | AA |
-| Unit | `#FF3366` | `#A39761` | 6.6:1 | AA |
-| Comonad | `#FFBE0B` | `#E8CF1F` | 12.3:1 | AAA |
-| Hom | `#4CB8E8` | `#8AA6E7` | 8.0:1 | AAA |
-| Isomorphism | `#33DD66` | `#CCBC6F` | 10.1:1 | AAA |
-| Counit | `#666666` | `#666666` | 3.4:1 | AA-large |
+| Name | Original | | Simulated | | Level |
+|:--|:--|:--|:--|:--|:--|
+| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
+| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#DDDAD1` | ![](https://img.shields.io/badge/-%20-DDDAD1?style=flat-square) | AAA |
+| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#758DC6` | ![](https://img.shields.io/badge/-%20-758DC6?style=flat-square) | AA |
+| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#A39761` | ![](https://img.shields.io/badge/-%20-A39761?style=flat-square) | AA |
+| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#E8CF1F` | ![](https://img.shields.io/badge/-%20-E8CF1F?style=flat-square) | AAA |
+| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#8AA6E7` | ![](https://img.shields.io/badge/-%20-8AA6E7?style=flat-square) | AAA |
+| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#CCBC6F` | ![](https://img.shields.io/badge/-%20-CCBC6F?style=flat-square) | AAA |
+| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
 
 **Near-pairs:**
 
@@ -111,16 +111,16 @@ No confusable pairs. Unit (rose → gray) loses chromatic punch but the ✕ icon
 
 &nbsp;
 
-| Name | Original | Simulated | On Void | Level |
-|:--|:--|:--|:--|:--|
-| Morphism | `#D4D4D4` | `#D4D4D4` | 13.0:1 | AAA |
-| Left Adjoint | `#00FFCE` | `#00FFF1` | 15.2:1 | AAA |
-| Right Adjoint | `#AA78C8` | `#A78397` | 5.8:1 | AA |
-| Unit | `#FF3366` | `#FF004A` | 4.9:1 | AA |
-| Comonad | `#FFBE0B` | `#FFAAA2` | 10.5:1 | AAA |
-| Hom | `#4CB8E8` | `#00C5C8` | 9.0:1 | AAA |
-| Isomorphism | `#33DD66` | `#00D8C2` | 10.6:1 | AAA |
-| Counit | `#666666` | `#666666` | 3.3:1 | AA-large |
+| Name | Original | | Simulated | | Level |
+|:--|:--|:--|:--|:--|:--|
+| Morphism | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | AAA |
+| Left Adjoint | `#00FFCE` | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#00FFF1` | ![](https://img.shields.io/badge/-%20-00FFF1?style=flat-square) | AAA |
+| Right Adjoint | `#AA78C8` | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#A78397` | ![](https://img.shields.io/badge/-%20-A78397?style=flat-square) | AA |
+| Unit | `#FF3366` | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#FF004A` | ![](https://img.shields.io/badge/-%20-FF004A?style=flat-square) | AA |
+| Comonad | `#FFBE0B` | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#FFAAA2` | ![](https://img.shields.io/badge/-%20-FFAAA2?style=flat-square) | AAA |
+| Hom | `#4CB8E8` | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#00C5C8` | ![](https://img.shields.io/badge/-%20-00C5C8?style=flat-square) | AAA |
+| Isomorphism | `#33DD66` | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#00D8C2` | ![](https://img.shields.io/badge/-%20-00D8C2?style=flat-square) | AAA |
+| Counit | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | AA-large |
 
 **Near-pair:**
 
@@ -153,10 +153,10 @@ Four levels. The icons are not optional — they are the signal. The color is th
 
 | Level | Color | Icon | When |
 |:--|:--|:--|:--|
-| Success | Isomorphism `#33DD66` | ✓ | Passing tests, verified, confirmed |
-| Info | Hom `#4CB8E8` | ℹ | Neutral information, status updates |
-| Warning | Comonad `#FFBE0B` | ⚠ | Deprecations, caution, second look |
-| Error | Unit `#FF3366` | ✕ | Failures, breaking changes, act now |
+| Success | ![](https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square) `#33DD66` | ✓ | Passing tests, verified, confirmed |
+| Info | ![](https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square) `#4CB8E8` | ℹ | Neutral information, status updates |
+| Warning | ![](https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square) `#FFBE0B` | ⚠ | Deprecations, caution, second look |
+| Error | ![](https://img.shields.io/badge/-Unit-FF3366?style=flat-square) `#FF3366` | ✕ | Failures, breaking changes, act now |
 
 ## Inversions
 
@@ -164,12 +164,12 @@ For solid-fill elements (tags, badges, buttons), use Void text on colored backgr
 
 | Background | Text | Contrast |
 |:--|:--|:--|
-| Left Adjoint `#00FFCE` | Void `#0C0E16` | 14.9:1 |
-| Isomorphism `#33DD66` | Void `#0C0E16` | 10.7:1 |
-| Comonad `#FFBE0B` | Void `#0C0E16` | 11.6:1 |
-| Hom `#4CB8E8` | Void `#0C0E16` | 8.6:1 |
-| Unit `#FF3366` | Void `#0C0E16` | 5.4:1 |
-| Right Adjoint `#AA78C8` | Void `#0C0E16` | 5.7:1 |
+| ![](https://img.shields.io/badge/-Left_Adjoint-00FFCE?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 14.9:1 |
+| ![](https://img.shields.io/badge/-Isomorphism-33DD66?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 10.7:1 |
+| ![](https://img.shields.io/badge/-Comonad-FFBE0B?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 11.6:1 |
+| ![](https://img.shields.io/badge/-Hom-4CB8E8?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 8.6:1 |
+| ![](https://img.shields.io/badge/-Unit-FF3366?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 5.4:1 |
+| ![](https://img.shields.io/badge/-Right_Adjoint-AA78C8?style=flat-square) | ![](https://img.shields.io/badge/-Void-0C0E16?style=flat-square) | 5.7:1 |
 
 ## CSS variables
 
@@ -214,17 +214,17 @@ const PALETTE = (
 
 Nearest ANSI 256 codes for CI logs, REPL output, and test runners. Half the places these colors appear are terminals, not browsers.
 
-| Name | Hex | ANSI 256 | Escape |
-|:--|:--|:--|:--|
-| Void | `#0C0E16` | 233 | `\e[38;5;233m` |
-| Elevation | `#181B24` | 234 | `\e[38;5;234m` |
-| Counit | `#666666` | 102 | `\e[38;5;102m` |
-| Morphism | `#D4D4D4` | 252 | `\e[38;5;252m` |
-| Left Adjoint | `#00FFCE` | 50 | `\e[38;5;50m` |
-| Right Adjoint | `#AA78C8` | 140 | `\e[38;5;140m` |
-| Unit | `#FF3366` | 204 | `\e[38;5;204m` |
-| Comonad | `#FFBE0B` | 220 | `\e[38;5;220m` |
-| Hom | `#4CB8E8` | 81 | `\e[38;5;81m` |
-| Isomorphism | `#33DD66` | 78 | `\e[38;5;78m` |
+| Name | | Hex | ANSI 256 | Escape |
+|:--|:--|:--|:--|:--|
+| Void | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) | `#0C0E16` | 233 | `\e[38;5;233m` |
+| Elevation | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) | `#181B24` | 234 | `\e[38;5;234m` |
+| Counit | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | 102 | `\e[38;5;102m` |
+| Morphism | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | 252 | `\e[38;5;252m` |
+| Left Adjoint | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#00FFCE` | 50 | `\e[38;5;50m` |
+| Right Adjoint | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#AA78C8` | 140 | `\e[38;5;140m` |
+| Unit | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#FF3366` | 204 | `\e[38;5;204m` |
+| Comonad | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#FFBE0B` | 220 | `\e[38;5;220m` |
+| Hom | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#4CB8E8` | 81 | `\e[38;5;81m` |
+| Isomorphism | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#33DD66` | 78 | `\e[38;5;78m` |
 
 Reset with `\e[0m` or `tput sgr0`.
