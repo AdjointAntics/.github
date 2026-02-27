@@ -8,16 +8,9 @@
 
 ---
 
-**Definition.** Let **CT** be the category of categorical structures and **AI** be the category of intelligent systems. *AdjointAntics* is the free functor
+Structure is not ornament. The same algebra that governs adjoint functors governs good software — composable, reversible, minimal.
 
-    F : CT ⇄ AI
-
-mapping abstract nonsense to concrete excellence.
-
-**Axioms:**
-- Every diagram should commute
-- Every abstraction should compute
-- Every contributor is welcome
+We build tools at the boundary of category theory and machine intelligence, in Julia, with the conviction that the right abstraction eliminates the right complexity.
 
 ## Focus
 
