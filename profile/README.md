@@ -29,7 +29,7 @@ The algebra should compile. The abstractions should vanish at runtime. The diagr
 
 If any of these keep you up at night — [open a discussion](https://github.com/orgs/AdjointAntics/discussions).
 
-## Neighbors
+## Standing on the Shoulders of
 
 - [ACSets.jl](https://github.com/AlgebraicJulia/ACSets.jl) — Acyclic colimit sets for structured data
 - [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
