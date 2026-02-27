@@ -33,7 +33,6 @@ If any of these keep you up at night — [open a discussion](https://github.com/
 
 - [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
 - [nLab](https://ncatlab.org) — The community wiki for higher category theory
-- [Catlab.jl](https://github.com/AlgebraicJulia/Catlab.jl) — Categorical modeling framework
 
 ---
 
