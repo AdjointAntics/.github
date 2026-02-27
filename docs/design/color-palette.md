@@ -4,26 +4,26 @@ An adjunction is not a symmetry. It's a directed relationship — one functor do
 
 ## Core
 
-| Role | Name | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|
-| Background | **Void** | `#0A0A0A` | — | The category itself. Contains all objects and morphisms. Shows none. Almost everything is this. |
-| Text | **Morphism** | `#D4D4D4` | 13.4:1 AAA | Arrows between objects. Not pure white — pure white is a statement, and the text isn't making one. |
-| Primary | **Left Adjoint** | `#00FFCE` | 15.3:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
+| Role | Name | Color | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|
+| Background | **Void** | Obsidian | `#0A0A0A` | — | The category itself. Contains all objects and morphisms. Shows none. Almost everything is this. |
+| Text | **Morphism** | Silver Arrow | `#D4D4D4` | 13.4:1 AAA | Arrows between objects. Not pure white — pure white is a statement, and the text isn't making one. |
+| Primary | **Left Adjoint** | Alien Cyan | `#00FFCE` | 15.3:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
 
 ## Accent
 
-| Role | Name | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|
-| Secondary | **Right Adjoint** | `#AA78C8` | 5.9:1 AA | G. The forgetful functor. Evolved from Julia purple. The lineage is visible in the color space. |
-| Alert | **Unit** | `#FF3366` | 5.6:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes, deprecations. If you see this color, something is asking you to act. |
-| Warning | **Comonad** | `#FFBE0B` | 11.9:1 AAA | GF. The composition that observes before it transforms. Warnings, highlights, selections. The thing that asks you to notice before you decide. |
+| Role | Name | Color | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|
+| Secondary | **Right Adjoint** | Forgetful Lilac | `#AA78C8` | 5.9:1 AA | G. The forgetful functor. Evolved from Julia purple. The lineage is visible in the color space. |
+| Alert | **Unit** | Hot Rose | `#FF3366` | 5.6:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes, deprecations. If you see this color, something is asking you to act. |
+| Warning | **Comonad** | Electric Amber | `#FFBE0B` | 11.9:1 AAA | GF. The composition that observes before it transforms. Warnings, highlights, selections. The thing that asks you to notice before you decide. |
 
 ## Structure
 
-| Role | Name | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|
-| Surface | **Elevation** | `#1A1A1A` | — | Code blocks, cards, anything that lifts off the void. The difference between `0A` and `1A` is subtle. That's the point — structure should be felt, not seen. |
-| Border | **Counit** | `#666666` | 3.4:1 AA-large | ε: FG → 1. The return. Borders, dividers, de-emphasized text. The things that organize without competing. |
+| Role | Name | Color | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|
+| Surface | **Elevation** | Charcoal | `#1A1A1A` | — | Code blocks, cards, anything that lifts off the void. The difference between `0A` and `1A` is subtle. That's the point — structure should be felt, not seen. |
+| Border | **Counit** | Ash | `#666666` | 3.4:1 AA-large | ε: FG → 1. The return. Borders, dividers, de-emphasized text. The things that organize without competing. |
 
 ## The eight
 
