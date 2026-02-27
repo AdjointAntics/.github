@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="AdjointAntics" width="200"/>
+</p>
+
 # AdjointAntics
 
 > *When left meets right, code gets dual-wielded*
