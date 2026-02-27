@@ -34,6 +34,8 @@ If any of these keep you up at night — [open a discussion](https://github.com/
 **Organizations**
 - [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
 - [nLab](https://ncatlab.org) — The community wiki for higher category theory
+- [Statebox](https://github.com/statebox) — Categorical process theory and verified smart contracts
+- [Topos Institute](https://github.com/ToposInstitute) — Research at the intersection of computation, category theory, and society
 
 **Repositories**
 - [ACSets.jl](https://github.com/AlgebraicJulia/ACSets.jl) — Acyclic colimit sets for structured data
