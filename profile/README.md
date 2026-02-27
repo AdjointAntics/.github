@@ -20,9 +20,15 @@ We build tools at the boundary of category theory and machine intelligence, in J
 | **AI & Learning** | Categorical foundations for neural architectures, compositional reasoning |
 | **Julia** | Type-driven libraries where the algebra compiles |
 
-## Contribute
+## What's Next
 
-We welcome morphisms from all categories. If you think in diagrams and dream in functors — open an issue, submit a PR, or just star something that commutes.
+First public packages are in the works — categorical abstractions for Julia that take adjoint duality seriously. Watch this space.
+
+## Neighbors
+
+- [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
+- [nLab](https://ncatlab.org) — The community wiki for higher category theory
+- [Catlab.jl](https://github.com/AlgebraicJulia/Catlab.jl) — Categorical modeling framework
 
 ---
 
