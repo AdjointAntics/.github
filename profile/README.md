@@ -31,8 +31,11 @@ If any of these keep you up at night — [open a discussion](https://github.com/
 
 ## Neighbors
 
+- [ACSets.jl](https://github.com/AlgebraicJulia/ACSets.jl) — Acyclic colimit sets for structured data
 - [AlgebraicJulia](https://github.com/AlgebraicJulia) — Applied category theory in Julia
+- [Catlab.jl](https://github.com/AlgebraicJulia/Catlab.jl) — Categorical modeling framework
 - [nLab](https://ncatlab.org) — The community wiki for higher category theory
+- [Oscar.jl](https://github.com/oscar-system/Oscar.jl) — Computer algebra in Julia
 
 ---
 
