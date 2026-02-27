@@ -1,0 +1,85 @@
+/*
+ * Adjoint Ten — AdjointAntics Color Palette
+ * https://github.com/AdjointAntics
+ *
+ * Standalone. No build step. No dependencies.
+ * Import this file. Everything else is derivable.
+ */
+
+:root {
+  /* Core */
+  --void: #0C0E16;
+  --elevation: #181B24;
+  --morphism: #D4D4D4;
+  --left-adjoint: #00FFCE;
+
+  /* Accent */
+  --right-adjoint: #AA78C8;
+  --unit: #FF3366;
+  --comonad: #FFBE0B;
+  --hom: #4CB8E8;
+  --isomorphism: #33DD66;
+
+  /* Structure */
+  --counit: #666666;
+
+  /* Alpha stops */
+  --alpha-subtle: 0.06;
+  --alpha-medium: 0.12;
+  --alpha-strong: 0.20;
+}
+
+/* Surfaces */
+.bg-void { background-color: var(--void); color: var(--morphism); }
+.bg-elevation { background-color: var(--elevation); color: var(--morphism); }
+
+/* Alerts — icons are not optional */
+.alert {
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin: 6px 0;
+}
+.alert-success {
+  background: rgba(51, 221, 102, var(--alpha-subtle));
+  border-left: 3px solid var(--isomorphism);
+  color: var(--isomorphism);
+}
+.alert-info {
+  background: rgba(76, 184, 232, var(--alpha-subtle));
+  border-left: 3px solid var(--hom);
+  color: var(--hom);
+}
+.alert-warning {
+  background: rgba(255, 190, 11, var(--alpha-subtle));
+  border-left: 3px solid var(--comonad);
+  color: var(--comonad);
+}
+.alert-error {
+  background: rgba(255, 51, 102, var(--alpha-subtle));
+  border-left: 3px solid var(--unit);
+  color: var(--unit);
+}
+
+/* Tags — subtle (tinted background) */
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+.tag-cyan { background: rgba(0, 255, 206, var(--alpha-medium)); color: var(--left-adjoint); }
+.tag-lilac { background: rgba(170, 120, 200, var(--alpha-medium)); color: var(--right-adjoint); }
+.tag-rose { background: rgba(255, 51, 102, var(--alpha-medium)); color: var(--unit); }
+.tag-amber { background: rgba(255, 190, 11, var(--alpha-medium)); color: var(--comonad); }
+.tag-blue { background: rgba(76, 184, 232, var(--alpha-medium)); color: var(--hom); }
+.tag-green { background: rgba(51, 221, 102, var(--alpha-medium)); color: var(--isomorphism); }
+.tag-gray { background: rgba(102, 102, 102, var(--alpha-strong)); color: var(--counit); }
+
+/* Tags — solid (inverted, colored background with Void text) */
+.tag-solid-cyan { background: var(--left-adjoint); color: var(--void); }
+.tag-solid-lilac { background: var(--right-adjoint); color: var(--void); }
+.tag-solid-rose { background: var(--unit); color: var(--void); }
+.tag-solid-amber { background: var(--comonad); color: var(--void); }
+.tag-solid-blue { background: var(--hom); color: var(--void); }
+.tag-solid-green { background: var(--isomorphism); color: var(--void); }
