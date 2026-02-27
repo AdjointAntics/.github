@@ -4,28 +4,28 @@ An adjunction is not a symmetry. It's a directed relationship — one functor co
 
 ## Core
 
-| Role | Name | Color | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|:--|
-| Background | **Void** | Deep Indigo | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) `#0C0E16` | — | The category. Contains everything, shows nothing. Almost all surface area is this. |
-| Text | **Morphism** | Silver Arrow | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not white — pure white is a statement. Text isn't making one. |
-| Primary | **Left Adjoint** | Alien Cyan | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) `#00FFCE` | 14.9:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
+| Role | Name | Color | | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|:--|
+| Background | **Void** | Deep Indigo | ![](https://img.shields.io/badge/-%20-0C0E16?style=flat-square) | `#0C0E16` | — | The category. Contains everything, shows nothing. Almost all surface area is this. |
+| Text | **Morphism** | Silver Arrow | ![](https://img.shields.io/badge/-%20-D4D4D4?style=flat-square) | `#D4D4D4` | 13.0:1 AAA | Arrows between objects. Not white — pure white is a statement. Text isn't making one. |
+| Primary | **Left Adjoint** | Alien Cyan | ![](https://img.shields.io/badge/-%20-00FFCE?style=flat-square) | `#00FFCE` | 14.9:1 AAA | F. The free functor. Constructs, synthesizes, reaches forward. Used sparingly, which is why it works. |
 
 ## Accent
 
-| Role | Name | Color | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|:--|
-| Secondary | **Right Adjoint** | Forgetful Lilac | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple — the lineage is visible in the color space. |
-| Error | **Unit** | Hot Rose | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes. If you see this, act. |
-| Warning | **Comonad** | Electric Amber | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) `#FFBE0B` | 11.6:1 AAA | GF. Observes before it transforms. Warnings, highlights, deprecations — the things that ask you to notice before you decide. |
-| Info | **Hom** | Frozen Neon | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The set of all morphisms between two objects. Structural, always present. Info states, focus rings — "you're here" without "look at me." |
-| Success | **Isomorphism** | Cathode Green | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states. Everything checks out. |
+| Role | Name | Color | | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|:--|
+| Secondary | **Right Adjoint** | Forgetful Lilac | ![](https://img.shields.io/badge/-%20-AA78C8?style=flat-square) | `#AA78C8` | 5.7:1 AA | G. The forgetful functor. Evolved from Julia purple — the lineage is visible in the color space. |
+| Error | **Unit** | Hot Rose | ![](https://img.shields.io/badge/-%20-FF3366?style=flat-square) | `#FF3366` | 5.4:1 AA | η: 1 → GF. The natural transformation that starts a round trip. Errors, breaking changes. If you see this, act. |
+| Warning | **Comonad** | Electric Amber | ![](https://img.shields.io/badge/-%20-FFBE0B?style=flat-square) | `#FFBE0B` | 11.6:1 AAA | GF. Observes before it transforms. Warnings, highlights, deprecations — the things that ask you to notice before you decide. |
+| Info | **Hom** | Frozen Neon | ![](https://img.shields.io/badge/-%20-4CB8E8?style=flat-square) | `#4CB8E8` | 8.6:1 AAA | Hom(A, B). The set of all morphisms between two objects. Structural, always present. Info states, focus rings — "you're here" without "look at me." |
+| Success | **Isomorphism** | Cathode Green | ![](https://img.shields.io/badge/-%20-33DD66?style=flat-square) | `#33DD66` | 10.7:1 AAA | f where f⁻¹ exists. The strongest positive statement. Passing tests, verified states. Everything checks out. |
 
 ## Structure
 
-| Role | Name | Color | Hex | Contrast on Void | Rationale |
-|:--|:--|:--|:--|:--|:--|
-| Surface | **Elevation** | Charcoal | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) `#181B24` | — | Code blocks, cards, anything lifted off the void. The step is subtle — structure should be felt, not seen. |
-| Border | **Counit** | Ash | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) `#666666` | 3.4:1 AA-lg | ε: FG → 1. The return. Borders, dividers, de-emphasized text. Organizes without competing. |
+| Role | Name | Color | | Hex | Contrast on Void | Rationale |
+|:--|:--|:--|:--|:--|:--|:--|
+| Surface | **Elevation** | Charcoal | ![](https://img.shields.io/badge/-%20-181B24?style=flat-square) | `#181B24` | — | Code blocks, cards, anything lifted off the void. The step is subtle — structure should be felt, not seen. |
+| Border | **Counit** | Ash | ![](https://img.shields.io/badge/-%20-666666?style=flat-square) | `#666666` | 3.4:1 AA-lg | ε: FG → 1. The return. Borders, dividers, de-emphasized text. Organizes without competing. |
 
 ## Adjoint Ten
 
