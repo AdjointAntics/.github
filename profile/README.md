@@ -4,7 +4,7 @@
 
 <h1 align="center">AdjointAntics</h1>
 
-<p align="center"><em>When left meets right, code gets dual-wielded</em></p>
+<p align="center"><em>Dual-wielding code with a left & right kan</em></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/F_⊣_G-adjoint paired-00FFCE?style=flat-square" alt="Adjoint Paired"/>
