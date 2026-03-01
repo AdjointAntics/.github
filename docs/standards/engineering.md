@@ -37,7 +37,7 @@ Detailed explanation of behavior, invariants, and laws.
 - **Foundation packages** (Theory, YonedaStyle, HomTime): zero external dependencies.
 - **Tier 2+ packages:** minimal deps, prefer local path deps via `[sources]` in Project.toml.
 - **Never add dependencies that duplicate stdlib functionality.**
-- **Test-only dependencies** (Aqua.jl, Documenter.jl) are acceptable in test environments.
+- **Test-only dependencies** (Documenter.jl) are acceptable in test environments.
 
 ## Testing
 

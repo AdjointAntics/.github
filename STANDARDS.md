@@ -10,7 +10,7 @@ Canonical versions live in the [.github org repo](https://github.com/AdjointAnti
 - **Structs:** immutable by default; mutable only with documented codata justification
 - **Docstrings:** signature line, blank line, substantive explanation — on every public symbol
 - **Dependencies:** zero external for foundations (Theory, YonedaStyle, HomTime); local path deps via `[sources]`
-- **Testing:** `test/test_*.jl` naming, `runtests.jl` runner, Aqua quality gates, algebraic laws MUST be tested
+- **Testing:** `test/test_*.jl` naming, `runtests.jl` runner, algebraic laws MUST be tested
 - **Commits:** [Conventional Commits](https://www.conventionalcommits.org/) — `feat:`, `fix:`, `docs:`, `test:`, `refactor:`, `perf:`
 
 ## Categorical Design Standards
