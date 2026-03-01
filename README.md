@@ -7,7 +7,7 @@
 <p align="center"><em>Seeking the universal property of good software.</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/F_⊣_G-adjoint paired-00FFCE?style=flat-square" alt="Adjoint Paired"/>
+  <img src="https://img.shields.io/badge/F_%E2%8A%A3_G-adjoint%20paired-00FFCE?style=flat-square" alt="Adjoint Paired"/>
   <img src="https://img.shields.io/badge/julia-1.10+-9558B2?style=flat-square&logo=julia&logoColor=white" alt="Julia 1.10+"/>
   <img src="https://img.shields.io/badge/diagrams-commuting-00FFCE?style=flat-square" alt="Diagrams Commuting"/>
   <img src="https://img.shields.io/badge/license-MIT-D4D4D4?style=flat-square" alt="MIT"/>
@@ -28,7 +28,7 @@
 
 ---
 
-A monorepo of twelve Julia packages that take adjunctions seriously as an engineering discipline — not a curiosity, not a flex, but the computational structure behind differentiation, learning, and optimization. Where [AlgebraicJulia](https://github.com/AlgebraicJulia) gives you categories as data structures, we build categories as computational strategies — particularly the adjoint machinery (F ⊣ G) that drives autodiff, encoder-decoder architectures, and compositional inference.
+A monorepo of twelve Julia packages that take adjunctions seriously as an engineering discipline — not a curiosity, not a flex, but the computational structure behind differentiation, learning, and optimization. Where [AlgebraicJulia](https://github.com/AlgebraicJulia) gives you categories as data structures, we build categories as computational strategies — particularly the adjoint machinery $(F \dashv G)$ that drives autodiff, encoder-decoder architectures, and compositional inference.
 
 The algebra should compile. The abstractions should vanish at runtime. The diagrams should commute.
 
@@ -50,7 +50,7 @@ end
 
 | | Package | What It Does | Dual |
 |:--|:--|:--|:--|
-| ![](https://img.shields.io/badge/T0-kernel-00FFCE?style=flat-square&labelColor=0C0E16) | [**Theory.jl**](Theory.jl) | Algebraic theory protocols, ExprF pattern functor, 39 law checkers | self-dual |
+| ![](https://img.shields.io/badge/T0-kernel-00FFCE?style=flat-square&labelColor=0C0E16) | [**Theory.jl**](Theory.jl) | Algebraic theory protocols, ExprF pattern functor, 78 law checkers | self-dual |
 | ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**Yoneda.jl**](Yoneda.jl) | Representable functors, presheaves, Kan extensions, limits | — |
 | ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**YonedaStyle.jl**](YonedaStyle.jl) | ANSI styling, tables, trees — display as representability | — |
 | ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**HomTime.jl**](HomTime.jl) | Hom-functor benchmarking with convergence and trust scores | [Poly.jl](Poly.jl) |
@@ -60,7 +60,7 @@ end
 | ![](https://img.shields.io/badge/T3-adjunction-AA78C8?style=flat-square&labelColor=0C0E16) | [**Cofree.jl**](Cofree.jl) | Cofree comonad, property testing, 22 algebraic law suites | [Free.jl](Free.jl) |
 | ![](https://img.shields.io/badge/T3-adjunction-AA78C8?style=flat-square&labelColor=0C0E16) | [**Poly.jl**](Poly.jl) | Polynomial functors, profunctor optics, wiring diagrams, SVG rendering | [HomTime.jl](HomTime.jl) |
 | ![](https://img.shields.io/badge/T4-application-33DD66?style=flat-square&labelColor=0C0E16) | [**PolyModes.jl**](PolyModes.jl) | TUI framework — widgets as Moore machines | — |
-| ![](https://img.shields.io/badge/App-tool-D4D4D4?style=flat-square&labelColor=0C0E16) | [**Strict.jl**](Strict.jl) | Julia linter — 117 rules, functor architecture, autofixes | — |
+| ![](https://img.shields.io/badge/App-tool-D4D4D4?style=flat-square&labelColor=0C0E16) | [**Strict.jl**](Strict.jl) | Julia linter — 118 rules, functor architecture, autofixes | — |
 | ![](https://img.shields.io/badge/Util-scaffold-D4D4D4?style=flat-square&labelColor=0C0E16) | [**StrictTemplate.jl**](StrictTemplate.jl) | Package scaffold — every other package factors through it | — |
 
 ## Dependency Flow
