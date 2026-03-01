@@ -1,0 +1,43 @@
+name: Bug Report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      description: Which package is affected?
+      options:
+        - Theory.jl
+        - Yoneda.jl
+        - YonedaStyle.jl
+        - HomTime.jl
+        - Initial.jl
+        - Terminal.jl
+        - Free.jl
+        - Cofree.jl
+        - Poly.jl
+        - PolyModes.jl
+        - Strict.jl
+        - StrictTemplate.jl
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Minimal code to reproduce the issue
+      render: julia
+  - type: input
+    id: julia-version
+    attributes:
+      label: Julia Version
+      placeholder: "e.g., 1.10.2"

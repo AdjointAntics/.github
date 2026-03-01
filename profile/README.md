@@ -22,10 +22,48 @@ The algebra should compile. The abstractions should vanish at runtime. The diagr
 
 ## Packages
 
-| Package | Purpose |
-|---------|---------|
-| [Strict.jl](https://github.com/AdjointAntics/Strict.jl) | Julia linter with 117 rules — open functor architecture, recursion schemes, algebraic laws |
-| [StrictTemplate.jl](https://github.com/AdjointAntics/StrictTemplate.jl) | Package template — CI, docs, benchmarks, testing scaffold |
+| | Package | What It Does |
+|:--|:--|:--|
+| ![](https://img.shields.io/badge/T0-kernel-00FFCE?style=flat-square&labelColor=0C0E16) | [**Theory.jl**](https://github.com/AdjointAntics/Theory.jl) | Algebraic theory protocols, ExprF pattern functor, 39 law checkers |
+| ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**Yoneda.jl**](https://github.com/AdjointAntics/Yoneda.jl) | Representable functors, presheaves, Kan extensions, concrete limits |
+| ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**YonedaStyle.jl**](https://github.com/AdjointAntics/YonedaStyle.jl) | ANSI styling, tables, trees — display as representability |
+| ![](https://img.shields.io/badge/T1-foundation-4CB8E8?style=flat-square&labelColor=0C0E16) | [**HomTime.jl**](https://github.com/AdjointAntics/HomTime.jl) | Hom-functor benchmarking with convergence and trust scores |
+| ![](https://img.shields.io/badge/T2-fixed_point-FFBE0B?style=flat-square&labelColor=0C0E16) | [**Initial.jl**](https://github.com/AdjointAntics/Initial.jl) | Catamorphisms, paramorphisms, zygo, histo — the folds |
+| ![](https://img.shields.io/badge/T2-fixed_point-FFBE0B?style=flat-square&labelColor=0C0E16) | [**Terminal.jl**](https://github.com/AdjointAntics/Terminal.jl) | Anamorphisms, futu, chrono, streams, sinks — the unfolds |
+| ![](https://img.shields.io/badge/T3-adjunction-AA78C8?style=flat-square&labelColor=0C0E16) | [**Free.jl**](https://github.com/AdjointAntics/Free.jl) | Algebraic effects, schema DSL, 11 code-gen backends, monad transformers |
+| ![](https://img.shields.io/badge/T3-adjunction-AA78C8?style=flat-square&labelColor=0C0E16) | [**Cofree.jl**](https://github.com/AdjointAntics/Cofree.jl) | Cofree comonad, property testing, 22 algebraic law suites |
+| ![](https://img.shields.io/badge/T3-adjunction-AA78C8?style=flat-square&labelColor=0C0E16) | [**Poly.jl**](https://github.com/AdjointAntics/Poly.jl) | Polynomial functors, profunctor optics, wiring diagrams, SVG rendering |
+| ![](https://img.shields.io/badge/T4-application-33DD66?style=flat-square&labelColor=0C0E16) | [**PolyModes.jl**](https://github.com/AdjointAntics/PolyModes.jl) | TUI framework — widgets as Moore machines |
+| ![](https://img.shields.io/badge/App-tool-D4D4D4?style=flat-square&labelColor=0C0E16) | [**Strict.jl**](https://github.com/AdjointAntics/Strict.jl) | Julia linter — 117 rules, functor architecture, autofixes |
+| ![](https://img.shields.io/badge/Util-scaffold-D4D4D4?style=flat-square&labelColor=0C0E16) | [**StrictTemplate.jl**](https://github.com/AdjointAntics/StrictTemplate.jl) | Package scaffold — every other package factors through it |
+
+## Dualities
+
+Every construction has a dual. This halves the design space.
+
+| Left | | Right | Relationship |
+|:--|:--|:--|:--|
+| **Free.jl** | ↔ | **Cofree.jl** | syntax ↔ observation |
+| **Initial.jl** | ↔ | **Terminal.jl** | fold ↔ unfold |
+| **Poly.jl** | ↔ | **HomTime.jl** | interface ↔ measurement |
+| **Theory.jl** | ↔ | **Theory.jl** | self-dual: protocols |
+
+## Design System
+
+<p>
+  <img src="https://img.shields.io/badge/Void-%20-0C0E16?style=flat-square&labelColor=0C0E16" alt="Void"/>
+  <img src="https://img.shields.io/badge/Elevation-%20-181B24?style=flat-square&labelColor=0C0E16" alt="Elevation"/>
+  <img src="https://img.shields.io/badge/Counit-%20-666666?style=flat-square&labelColor=0C0E16" alt="Counit"/>
+  <img src="https://img.shields.io/badge/Morphism-%20-D4D4D4?style=flat-square&labelColor=0C0E16" alt="Morphism"/>
+  <img src="https://img.shields.io/badge/Left_Adjoint-%20-00FFCE?style=flat-square&labelColor=0C0E16" alt="Left Adjoint"/>
+  <img src="https://img.shields.io/badge/Right_Adjoint-%20-AA78C8?style=flat-square&labelColor=0C0E16" alt="Right Adjoint"/>
+  <img src="https://img.shields.io/badge/Unit-%20-FF3366?style=flat-square&labelColor=0C0E16" alt="Unit"/>
+  <img src="https://img.shields.io/badge/Comonad-%20-FFBE0B?style=flat-square&labelColor=0C0E16" alt="Comonad"/>
+  <img src="https://img.shields.io/badge/Hom-%20-4CB8E8?style=flat-square&labelColor=0C0E16" alt="Hom"/>
+  <img src="https://img.shields.io/badge/Isomorphism-%20-33DD66?style=flat-square&labelColor=0C0E16" alt="Isomorphism"/>
+</p>
+
+Ten colors. Categorically named. WCAG AA minimum. See the [full palette](../docs/design/color-palette.md).
 
 ## Open Questions
 
