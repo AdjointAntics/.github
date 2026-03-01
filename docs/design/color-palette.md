@@ -225,8 +225,10 @@ For solid-fill elements (tags, badges, buttons), use Void text on colored backgr
 
 ## Julia constants
 
+Brand palette for use in package code and configuration. Note: YonedaStyle.jl's `PALETTE` is a separate 24-color terminal palette for general rendering — these brand tokens are for UI theming and documentation tooling.
+
 ```julia
-const PALETTE = (
+const ADJOINT_PALETTE = (
     void          = "#0C0E16",
     elevation     = "#181B24",
     counit        = "#666666",
