@@ -62,6 +62,20 @@ Detailed explanation of behavior, invariants, and laws.
 - Breaking changes require major version bump
 - Changelog maintained per package (`CHANGELOG.md`)
 
+## Commit Conventions
+
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
+
+- `feat:` — new feature or capability
+- `fix:` — bug fix
+- `refactor:` — code change that neither fixes a bug nor adds a feature
+- `docs:` — documentation only
+- `test:` — adding or correcting tests
+- `chore:` — maintenance (CI, deps, build)
+- `perf:` — performance improvement
+
+Scope is optional: `feat(Theory.jl):` or `fix(ExprF):`. Keep the subject line under 72 characters.
+
 ## Performance
 
 - Benchmark with HomTime.jl (`hom()` auto-calibrates, disables GC during samples)

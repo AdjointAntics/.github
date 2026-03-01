@@ -20,12 +20,19 @@ Where [AlgebraicJulia](https://github.com/AlgebraicJulia) gives you categories a
 
 The algebra should compile. The abstractions should vanish at runtime. The diagrams should commute.
 
+## Packages
+
+| Package | Purpose |
+|---------|---------|
+| [Strict.jl](https://github.com/AdjointAntics/Strict.jl) | Julia linter with 117 rules — open functor architecture, recursion schemes, algebraic laws |
+| [StrictTemplate.jl](https://github.com/AdjointAntics/StrictTemplate.jl) | Package template — CI, docs, benchmarks, testing scaffold |
+
 ## Open Questions
 
 - Can the Para construction give Julia a categorical interface to gradient-based learning?
 - What's the right comonadic semantics for streaming data and online inference?
 - When does the free-forgetful pattern in type systems actually buy you performance?
-- Is there a useful profunctor optics library waiting to be written in Julia?
+- What's the right API surface for profunctor optics in Julia?
 
 If any of these keep you up at night — [open a discussion](https://github.com/orgs/AdjointAntics/discussions).
 
