@@ -59,8 +59,8 @@ Document the codata justification in a comment above any mutable struct. If you 
 
 Algebraic laws are not aspirational — they are tested. Every categorical abstraction MUST have its laws verified:
 
-- **30+ law checkers** in Theory.jl (category, functor, monad, comonad, nat trans, adjunction triangles, 2-category interchange, pentagon, hexagon, profunctor, limit universal properties, pullback commutativity, fibration laws)
-- **15 pre-built law suites** in Cofree.jl (functor, monad, comonad, semigroup, monoid, category, lens, prism, applicative, traverse, arrow, natural transformation, distributive, monoidal, profunctor, product, coproduct, equalizer, fibration, Grothendieck)
+- **39 law checkers** in Theory.jl (category, functor, monad, comonad, nat trans, adjunction triangles, 2-category interchange, pentagon, hexagon, profunctor, limit universal properties, pullback commutativity, fibration laws)
+- **22 pre-built law suites** in Cofree.jl (functor, monad, comonad, semigroup, monoid, category, lens, prism, applicative, traverse, arrow, natural transformation, distributive, monoidal, braided monoidal, symmetric monoidal, profunctor, product, coproduct, equalizer, fibration, Grothendieck)
 
 When adding a new abstraction: write the law checker in Theory.jl, add a law suite in Cofree.jl, and test it against your concrete implementation. Laws that aren't tested don't exist.
 
@@ -118,7 +118,7 @@ Theory     Yoneda      Free    Poly    HomTime    Cofree     Initial  Terminal
 | Profunctor.jl | Profunctor, TambaraModule, PastroModule | dimap, Tambara strength, free Tambara (left Kan along tensor) |
 | Limit.jl | Cone, Cocone, Product, Coproduct, Equalizer, Coequalizer, Pullback, Pushout | Universal properties with mediating morphism factories |
 | Fibration.jl | Fibration, Opfibration, CartesianMorphism, GrothendieckObj/Mor | Cartesian/cocartesian lifts, Grothendieck construction |
-| Laws.jl | 30+ checkers | Pentagon, hexagon, profunctor identity, pullback square, cartesian lift, etc. |
+| Laws.jl | 39 checkers | Pentagon, hexagon, profunctor identity, pullback square, cartesian lift, etc. |
 
 ---
 
@@ -130,7 +130,7 @@ Theory     Yoneda      Free    Poly    HomTime    Cofree     Initial  Terminal
 | **Polyglot schema management** | Free (Schema + 11 backends) | Define once, generate SQL, TypeScript, GraphQL, Protobuf, OpenAPI, Avro, Arrow, TOML, Julia, Lean from one source. |
 | **Algebraic effect systems** | Free (Eff + 7 handlers) | Pure business logic separated from effects. Swap interpreters for testing vs production. NonDet gives search/backtracking. |
 | **Bidirectional data pipelines** | Free (BiCoder) + Poly (optics) | Composable encode/decode pairs. Lenses for records, prisms for variants, traversals for collections. |
-| **Property testing + law verification** | Cofree (Gen/shrink/suites) + Theory (Laws) | Drop-in property testing with shrinking + 15 pre-built law suites for functor, monad, lens, profunctor, fibration laws. |
+| **Property testing + law verification** | Cofree (Gen/shrink/suites) + Theory (Laws) | Drop-in property testing with shrinking + 22 pre-built law suites for functor, monad, lens, profunctor, fibration laws. |
 | **Terminal UI applications** | PolyModes + Poly (Moore/wiring) + YonedaStyle | Widgets as Moore coalgebras. parallel = hsplit, sequential = vsplit, feedback = focus ring. Immutable state, testable in isolation. |
 | **Categorical benchmarking** | HomTime | Auto-calibrated microbenchmarks. compose_temporal (sequential) and tensor_temporal (parallel) for correct pipeline arithmetic. |
 | **Finite category computation** | Yoneda (Kan extensions, ends/coends, limits) | Compute left/right Kan extensions. Union-find coend quotients. Verify universal properties algorithmically. |
